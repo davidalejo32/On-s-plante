@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>les associations</title>
+    <link rel="stylesheet" href="./css/associations-mobile.css">
+    <link rel="stylesheet" href="./css/associations-desktop.css" media="screen and (min-width: 770px)">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-container">
+            <div class="nav-container-left">
+                <img src="./assets/icons/carrot-and-broccoli.svg" alt="logo de zanahoria y brocoli">
+                <p>On s’plante ?</p>
+            </div>
+            <div class="nav-container-center">
+                <p>Le compagnonnage</p>
+            </div>
+            <div class="nav-container-rigth">
+                <a href="./index.html">
+                    <img src="./assets/icons/home-white.svg" alt="icono de home">
+                </a>
+                <a href="./associations.html">
+                    <img src="./assets/icons/plant-fill-white.svg" alt="icono de planta">
+                </a>
+                <a href="./profile.html">
+                    <img src="./assets/icons/account-white.svg" alt="icono de cuenta">
+                </a>
+            </div>
+    </header>
+    <figure class="plant-desktop">
+        <img src="./assets/img/hanging-plant.svg" alt="imagen de planta colgante">
+    </figure>
+    <main class="main-container">
+        <figure class="main-container-logo">
+            <img src="./assets/icons/carrot-and-broccoli.svg" alt="logo de zanahoria y brocoli">
+        </figure>
+
+        <section>
+            <article class="main-article-first">
+                <h1>Le compagnonnage</h1>
+                <p>Cet outil te permet de tester les relations entre deux plantes de ton choix. <br>
+                Clique sur les boutons ci-dessous et sélectionne deux plantes.</p>
+            </article>
+
+            <article class="main-article-second">
+                <div class="aticle-second-plant-one">
+                    <div></div>
+                    <p>Plante 1</p>
+                </div>
+                <div class="aticle-second-plant-two">
+                    <div></div>
+                    <p>Plante 2</p>
+                </div>
+            </article>
+
+            <article class="main-article-third">
+                <p>Ensuite, regarde si elles sont compatibles.</p>
+                <figure class="plant-mobile">
+                    <img src="./assets/img/plant1.svg" alt="imagen de planta">
+                </figure>
+            </article>
+            
+        </section>
+        <nav class="header-container-nav">
+            <ul>
+                <li><a href="./index.html"><img src="./assets/icons/home-white.svg" alt="logo de home"></a></li>
+                <li><a href="./associations.html"><img src="./assets/icons/plant-fill-green.svg" alt="logo de planta"></a></li>
+                <li><a href="./profile.html"><img src="./assets/icons/account-white.svg" alt="logo de cuenta"></a></li>
+            </ul>
+        </nav>
+    </main>
 </body>
 </html>

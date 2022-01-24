@@ -1,0 +1,162 @@
+:root{
+    --font:'Quicksand', sans-serif;
+    --fill:#0F4E66;
+    --light-green: #36D39A;   
+    --background-dark: #061B23;
+    --button-red: #E90F0F;
+    --sky-blue:#B0EBCE;
+}
+html {
+    font-size: 62.5%;
+    font-family: var(--font);
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--background-dark);
+}
+
+.plant-desktop {
+    display: none;
+}
+
+.header-container-nav ul {
+    width: 100%;
+    min-width: 320px;
+    /* max-width: 768px; */
+    height: 6rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin-top: 2rem;
+}
+
+.header-container-nav  li {
+    list-style: none;
+    margin: 2rem;
+    margin-bottom: 3rem;
+}
+
+.main-container-logo {
+    width: 11rem;
+    height: 11rem;
+    min-width: 320px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.main-container-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-article-first {
+    width: 80%;
+    min-width: 300px;
+    max-width: 768px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.main-article-first h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+}
+
+.main-article-first p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main-article-second {
+    width: 85%;
+    min-width: 300px;
+    max-width: 768px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+}
+
+.aticle-second-plant-one div{
+    width: 11rem;
+    height: 11rem;
+    background-color: var(--sky-blue);
+    position: relative;
+    /* margin-right: 2rem; */
+    border-radius: 2rem;
+}
+
+.aticle-second-plant-one p {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.aticle-second-plant-two div{
+    width: 11rem;
+    height: 11rem;
+    background-color: var(--sky-blue);
+    border-radius: 2rem;
+}
+
+.aticle-second-plant-two p {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-article-third {
+    width: 100%;
+    min-width: 300px;
+    max-width: 768px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-article-third p {
+    width: 60%;
+    height: auto;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 20%;
+    margin-left: 40px;
+}
+
+.main-article-third figure {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    right: 0;
+    z-index: -5;
+}
+
+.main-article-third img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nav-container {
+    display: none;
+}
+
